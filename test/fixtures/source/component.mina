@@ -1,0 +1,27 @@
+<config>
+{
+  "component": true
+}
+</config>
+
+<style>
+.logo {
+  width: 80px;
+  height: 80px;
+}
+</style>
+
+<template>
+  <view>
+    <image class="logo" src="./logo.png" />
+  </view>
+</template>
+
+<script>
+require('./dependency.js')
+Component({
+  ready () {
+    console.log('hello from component')
+  }
+})
+</script>
