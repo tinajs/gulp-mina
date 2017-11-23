@@ -13,6 +13,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "ava": "^0.23.0",
     "babel": "^6.23.0",
