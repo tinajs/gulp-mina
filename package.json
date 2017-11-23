@@ -1,0 +1,31 @@
+{
+  "name": "@tinajs/gulp-mina",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava test/test.js"
+  },
+  "author": "yelo",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "event-stream": "^3.3.4",
+    "vinyl": "^2.1.0"
+  },
+  "dependencies": {
+    "@tinajs/mina-sfc": "^0.1.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
