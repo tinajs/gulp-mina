@@ -25,6 +25,11 @@
     "chai": "^4.1.2",
     "del": "^3.0.0",
     "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-json-minify": "^1.2.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-uglify": "^3.0.0",
+    "precss": "^2.0.0",
     "vinyl": "^2.1.0"
   },
   "dependencies": {

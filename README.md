@@ -22,7 +22,7 @@ gulp.task('default', () => {
 })
 ```
 
-[Example](./examples/precompile-mina-library)
+[Example (more complicated)](./examples/precompile-mina-library)
 
 ### Split mina single-file-component to a group of files (``wxml``, ``wxss``, ``json`` and ``js``)
 ```javascript
