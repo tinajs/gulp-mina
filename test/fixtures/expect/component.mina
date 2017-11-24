@@ -3,7 +3,7 @@
   "component": true
 }
 </config>
-<style>
+<style foo="bar" baz>
 .logo {
   width: 80px;
   height: 80px;
