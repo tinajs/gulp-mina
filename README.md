@@ -7,7 +7,7 @@ npm install --save-dev @tinajs/gulp-mina
 ```
 
 ## Usage
-### Precompile mina singlet-file-componen library
+### Precompile mina single-file-component library
 ```javascript
 const gulp = require('gulp')
 const babel = require('gulp-babel')
@@ -42,13 +42,13 @@ gulp.task('default', ['clean'], () => {
 
 ## API
 ### mina([mapping])
-Separate mina-sfc to multiple streams, and pipe the recombined results out. 
+Separate mina-sfc to multiple streams, and pipe the recombined results down. 
 
 #### mapping
 Type: ``Object``  
 Default: {}  
 
-Each separated streams of mina-sfc file will be passed to this mapping.
+Each separated streams of mina-sfc file will be passed to these mapping functions.
 
 ##### script
 Type: ``Function``  
