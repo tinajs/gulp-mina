@@ -4,7 +4,7 @@ const babel = require('gulp-babel')
 const mina = require('../..')
 
 gulp.task('default', ['clean'], () => {
-  return gulp.src('../../test/fixtures/source/component.mina')
+  return gulp.src('../../test/fixtures/source/*.mina')
     .pipe(mina({
       script: (stream) => stream.pipe(babel({ presets: ['env'] })),
     }))
