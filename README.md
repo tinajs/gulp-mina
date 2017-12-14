@@ -1,5 +1,5 @@
 # gulp-mina
-> split/precompile mina single-file-component
+> :oden: split/precompile mina single-file-component
 
 ## Install
 ```bash
@@ -78,4 +78,4 @@ Just like ``mina([mapping])``, but pipe separated mina-sfc as multiple files to 
 - [mina-sfc](https://github.com/tinajs/mina-sfc)
 
 ## License
-MIT @ [yelo](https://github.com/imyelo)
+MIT &copy; [yelo](https://github.com/imyelo), 2017 - present
