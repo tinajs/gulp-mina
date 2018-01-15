@@ -1,6 +1,10 @@
 # gulp-mina
 > :oden: split/precompile mina single-file-component
 
+[![npm](https://img.shields.io/npm/v/@tinajs/gulp-mina.svg?style=flat-square)](https://www.npmjs.com/package/@tinajs/gulp-mina)
+[![license](https://img.shields.io/github/license/tinajs/gulp-mina.svg?style=flat-square)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## Install
 ```bash
 npm install --save-dev @tinajs/gulp-mina
