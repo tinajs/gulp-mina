@@ -1,16 +1,24 @@
 {
   "name": "@tinajs/gulp-mina",
   "version": "0.1.0",
-  "publishConfig": {
-    "access": "public"
-  },
-  "description": "",
+  "description": "split/precompile mina single-file-component",
   "main": "lib/index.js",
   "scripts": {
     "test": "ava"
   },
   "author": "yelo",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "tinajs/gulp-mina",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinajs/gulp-mina/issues"
+  },
+  "homepage": "https://github.com/tinajs/gulp-mina#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
