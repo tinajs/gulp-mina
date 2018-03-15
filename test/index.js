@@ -4,6 +4,7 @@ const test = require('ava')
 const es = require('event-stream')
 const File = require('vinyl')
 const babel = require('gulp-babel')
+const streamToPromise = require('stream-to-promise')
 const mina = require('..')
 
 const fixture = {
@@ -23,9 +24,11 @@ test('compiling-library', async (t) => {
   })
 
   stream.write(file)
+  stream.end()
   stream.on('data', (file) => {
     t.is(file.contents.toString(), fs.readFileSync(fixture.expect('component.mina'), 'utf8'))
   })
+  await streamToPromise(stream)
 })
 
 test('split-files', async (t) => {
@@ -47,7 +50,9 @@ test('split-files', async (t) => {
 
   let index = 0
   stream.write(file)
+  stream.end()
   stream.on('data', (file) => {
     t.is(expects[index++], file.contents.toString())
   })
+  await streamToPromise(stream)
 })

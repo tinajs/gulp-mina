@@ -41,6 +41,7 @@
     "gulp-postcss": "^7.0.0",
     "gulp-uglify": "^3.0.0",
     "precss": "^2.0.0",
+    "stream-to-promise": "^2.2.0",
     "vinyl": "^2.1.0"
   },
   "dependencies": {
