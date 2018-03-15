@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "@tinajs/mina-sfc": "^0.2.0",
+    "bluebird": "^3.5.1",
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
