@@ -1,6 +1,6 @@
 {
   "name": "@tinajs/gulp-mina",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "split/precompile mina single-file-component",
   "main": "lib/index.js",
   "scripts": {
